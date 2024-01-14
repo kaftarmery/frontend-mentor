@@ -21,15 +21,14 @@ function App() {
             </div>
           </aside>
 
-          {/* additional info of card */}
-
+          {/* ride side of card */}
           <div className="py-8 px-8 flex flex-col justify-center items-left gap-7">
             <h1 className="font-semibold text-lg text-dark-gray">Summary</h1>
 
             <ul className="flex-col flex gap-4">
               <li className="rounded-md py-3 px-3 flex bg-red-light justify-between">
                 <img src="./src/assets/icons/icon-reaction.svg" alt="" />
-                <p className="text-red-default ml-[-30px]">Reaction</p>
+                <p className="text-red-default ml-[-50px]">Reaction</p>
                 <p>
                   <span className="font-semibold">80</span>
 
@@ -39,7 +38,7 @@ function App() {
 
               <li className="rounded-md py-3 px-3 flex justify-between bg-orange-light">
                 <img src="./src/assets/icons/icon-memory.svg" alt="" />
-                <p className="text-orange-default ml-[-30px] ">Memory</p>
+                <p className="text-orange-default ml-[-50px] ">Memory</p>
                 <p>
                   92 <span className="text-gray-light"> / 100</span>
                 </p>
@@ -47,7 +46,7 @@ function App() {
 
               <li className="rounded-md py-3 px-3 justify-between flex bg-green-light ">
                 <img src="./src/assets/icons/icon-verbal.svg" alt="" />
-                <p className="text-green-default justify-between ml-[-30px]">
+                <p className="text-green-default justify-between ml-[-60px]">
                   Verbal
                 </p>
                 <p>
@@ -57,7 +56,7 @@ function App() {
 
               <li className="justify-between rounded-md py-3 px-3 flex bg-pale-blue">
                 <img src="./src/assets/icons/icon-visual.svg" alt="" />
-                <p className="text-blue ml-[-30px]">Visual</p>
+                <p className="text-blue ml-[-60px]">Visual</p>
                 <p>
                   72 <span className="text-gray-light"> / 100</span>
                 </p>
